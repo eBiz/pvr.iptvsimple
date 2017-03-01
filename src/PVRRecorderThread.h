@@ -20,9 +20,9 @@
  *
  */
 
-#include "platform/util/StringUtils.h"
+#include "p8-platform/util/StringUtils.h"
 #include <map>
-#include "platform/threads/threads.h"
+#include "p8-platform/threads/threads.h"
 #include "PVRIptvData.h"
 #include <string>
 #include "libexecstream/exec-stream.h"
