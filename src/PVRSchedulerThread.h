@@ -28,7 +28,7 @@
 using namespace ADDON;
 using namespace std;
 
-class PVRSchedulerThread : PLATFORM::CThread
+class PVRSchedulerThread : P8PLATFORM::CThread
 {
     public: 
     PVRSchedulerThread(void);

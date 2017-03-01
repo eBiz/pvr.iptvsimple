@@ -29,7 +29,7 @@
 
 using namespace ADDON;
 
-class PVRRecorderThread : PLATFORM::CThread
+class PVRRecorderThread : P8PLATFORM::CThread
 {
     public: 
     PVRRecorderThread(PVRIptvChannel &currentChannel,int iClientIndex);

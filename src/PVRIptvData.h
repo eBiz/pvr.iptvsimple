@@ -82,7 +82,7 @@ struct PVRIptvEpgGenre
   std::string       strGenre;
 };
 
-class PVRIptvData : public P8PLATFORM::CThread
+class PVRIptvData : public P8P8PLATFORM::CThread
 {
 public:
   PVRIptvData(void);
